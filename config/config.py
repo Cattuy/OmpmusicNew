@@ -103,8 +103,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "98c27569652f4b5eb76485f30877ab18")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "868a035ab82a4532b43efbcb615e21e3")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
@@ -135,8 +135,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BACRejGZJX4Cu7sh4G_wOCKoZMoHkgNsAFlNjMSKo4tZYgeYmp6SJV_tgtnLnj6VpvumqXQlh0k-S40ly0KIgalvuypPPkH1oy5rHxlJd-eLDd4qkDMrp0DyVdKsQxjDFP6ZLTEo3nC2hjSn7SHe5kolTrkcrxdbdvbHwZgKi0GWcow8qdHil0EfyeH3mfvifPnx6CoUIJVyZE8jbD92m04gEIv8MD5yyRUZoy8kS6selt1Eg8mhj-xkbNA9mXunrY0L93Vy8tPL011LMWevhD4KAmfzv3UzLptAZ35HJHERL9AcXCBiwG1nJwLf2nN-h0G6nOZouQQzdEHHhzNqZcHkAAAAATAWjC8A")
-STRING2 = getenv("STRING_SESSION2", None)
+STRING1 = getenv("STRING_SESSION", "BAC-zkwG4G7iBppySxU-JWTOqCWCEpSU7NElgggn08NWEtWKYOcYgltHw7sWPjxfHr30F-Nz59ojQAe019khEa-FJlolzBoX-D5PeX9Q3Qug4POWlVe0osAc84-1oLMjE-VKUPMFNbaMhtnw1Et57fqjHCszhPZOltI3PiTGHziAqxp_Tx2RW6ooknQBfRdCpm-B-PlwqMQ7MfNxfEqoC1q_j925ojl1DVJpy4H9pZPun9m8MdwI4ZLhGiHA3InB1cWSRh2p5gutPMFjiBnIOdJNxFPmTtfIV3U8-jwQdMVKMrkfmLRagvY-ogazpc5XzxIXyK7ovFuKrSCS22puYHEoAAAAATAWjC8A")
+STRING2 = getenv("STRING_SESSION2", "BABdK5Dayqobz8Qz7TFFjZ2Kcp2mDG3zW7A73DEnRIfc2wchXEyRJ37eAgekVFOHupFyBHJneHuSVX43D2o-G5id5dlrKNzmNuJk12sVS5ocQzbaoc91YJqi6bb6mvLgee392NxvKm1ZC4ROOzz_t0yyB9epzTxBGQPzaEIyJMfNDnkBNtoJ_7lJGmC9cFSu4reUM4wjh914chbh08kjl4_3vxHyh_bi818JJyPzQ5ACDk4W90BQLdtCZUdzsCC6yvcAhXQPs2MZ6-ULvzroPYUSaS0bhhIPESk6fTQua2VD6x7Z6pV0xDNKpKjrn_7EYMvNGmtvVLYmk9VhiBjAisAoAAAAAUgJ1yEA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
