@@ -24,7 +24,7 @@ API_HASH = getenv("API_HASH", "2931e14598cd0f0763236bc84ee4bd6d")
 BOT_TOKEN = getenv("BOT_TOKEN", "5097632527:AAEyKN7goIl0lupYgQVqJJH1ghg4fT6wdk0")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://guri:guri@cluster0.nihek.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://baby:baby@cluster0.p6jnvey.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001686049931"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "GURI MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "EAR'S HEAVEN")
 
 # Your User ID.
 OWNER_ID = list(
@@ -85,7 +85,7 @@ AUTO_SUGGESTION_TIME = int(
 )  # Remember to give value in Seconds
 
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
-AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
+AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
 # Set it True if you want to bot to suggest about bot commands to random chats of your bots.
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
@@ -113,7 +113,7 @@ VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
 
 # MaximuM limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "40"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
@@ -135,11 +135,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BAC-zkwG4G7iBppySxU-JWTOqCWCEpSU7NElgggn08NWEtWKYOcYgltHw7sWPjxfHr30F-Nz59ojQAe019khEa-FJlolzBoX-D5PeX9Q3Qug4POWlVe0osAc84-1oLMjE-VKUPMFNbaMhtnw1Et57fqjHCszhPZOltI3PiTGHziAqxp_Tx2RW6ooknQBfRdCpm-B-PlwqMQ7MfNxfEqoC1q_j925ojl1DVJpy4H9pZPun9m8MdwI4ZLhGiHA3InB1cWSRh2p5gutPMFjiBnIOdJNxFPmTtfIV3U8-jwQdMVKMrkfmLRagvY-ogazpc5XzxIXyK7ovFuKrSCS22puYHEoAAAAATAWjC8A")
-STRING2 = getenv("STRING_SESSION2", "BABdK5Dayqobz8Qz7TFFjZ2Kcp2mDG3zW7A73DEnRIfc2wchXEyRJ37eAgekVFOHupFyBHJneHuSVX43D2o-G5id5dlrKNzmNuJk12sVS5ocQzbaoc91YJqi6bb6mvLgee392NxvKm1ZC4ROOzz_t0yyB9epzTxBGQPzaEIyJMfNDnkBNtoJ_7lJGmC9cFSu4reUM4wjh914chbh08kjl4_3vxHyh_bi818JJyPzQ5ACDk4W90BQLdtCZUdzsCC6yvcAhXQPs2MZ6-ULvzroPYUSaS0bhhIPESk6fTQua2VD6x7Z6pV0xDNKpKjrn_7EYMvNGmtvVLYmk9VhiBjAisAoAAAAAUgJ1yEA")
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+
+STRING_SESSION = BACqjbDDnmk3qVn6cG4_UZ4v8ofKwsRjRTBhkuhmdpRvXiP-gxpNuoqwetD9wwEHa6SGFHuwfHrW1s81L9EOOH87zep7Wmp8AYEC9Oy9vc97syH4K5Mn-P7f0ipY2KI87hnyiGtENbL2R5GJ6HG5ijF_SDMyBs5KXLuqVLTpXb5y0rJsuZtAu971S-v9F_XcWiiaAdJznbTBb24bPho-FPKtYb2STYXanlVyQ9hULFYSGzfSsxcbKVXFj94rF53MBg8x27Yw8FQv-V1Hijdu5kZIXPhmCnxZnZFuNrvtQjtX5YUfzxWLnpiKbe4eHEOPrdOyhOMaQWIJos6VtqNKmKQlAAAAATAWjC8A
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____   ____   ____ _______
@@ -353,3 +350,4 @@ if not MUSIC_BOT_NAME.isascii():
         "[ERROR] - You've defined MUSIC_BOT_NAME wrong. Please don't use any special characters or Special font for this... Keep it simple and small."
     )
     sys.exit()
+    
