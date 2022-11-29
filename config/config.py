@@ -136,7 +136,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING_SESSION = BACqjbDDnmk3qVn6cG4_UZ4v8ofKwsRjRTBhkuhmdpRvXiP-gxpNuoqwetD9wwEHa6SGFHuwfHrW1s81L9EOOH87zep7Wmp8AYEC9Oy9vc97syH4K5Mn-P7f0ipY2KI87hnyiGtENbL2R5GJ6HG5ijF_SDMyBs5KXLuqVLTpXb5y0rJsuZtAu971S-v9F_XcWiiaAdJznbTBb24bPho-FPKtYb2STYXanlVyQ9hULFYSGzfSsxcbKVXFj94rF53MBg8x27Yw8FQv-V1Hijdu5kZIXPhmCnxZnZFuNrvtQjtX5YUfzxWLnpiKbe4eHEOPrdOyhOMaQWIJos6VtqNKmKQlAAAAATAWjC8A
+("STRING_SESSION", "BACqjbDDnmk3qVn6cG4_UZ4v8ofKwsRjRTBhkuhmdpRvXiP-gxpNuoqwetD9wwEHa6SGFHuwfHrW1s81L9EOOH87zep7Wmp8AYEC9Oy9vc97syH4K5Mn-P7f0ipY2KI87hnyiGtENbL2R5GJ6HG5ijF_SDMyBs5KXLuqVLTpXb5y0rJsuZtAu971S-v9F_XcWiiaAdJznbTBb24bPho-FPKtYb2STYXanlVyQ9hULFYSGzfSsxcbKVXFj94rF53MBg8x27Yw8FQv-V1Hijdu5kZIXPhmCnxZnZFuNrvtQjtX5YUfzxWLnpiKbe4eHEOPrdOyhOMaQWIJos6VtqNKmKQlAAAAATAWjC8A")
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____   ____   ____ _______
